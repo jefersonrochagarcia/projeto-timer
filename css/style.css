@@ -1,0 +1,49 @@
+
+* {
+    margin: 0;
+    font-family: sans-serif;
+    font-weight: 700;
+  }
+  body {
+    background-color: orange;
+  }
+  h1 {
+    text-align: center;
+    opacity: 0.7;
+    background-color: #ffffff;
+    margin: 0;
+    padding: 0.2em;
+  }
+  #main {
+    display: flex;
+    justify-content: center;
+    gap: 6px;
+    align-items: center;
+    margin: 45px 30px;
+  } 
+  button {
+    padding: 0.5em 1em;
+    height: 30%;
+    width: 30%;
+    font-size: 1.25em;
+    background-color:  #DCFFFF;
+    border: none;
+    font-family: sans-serif;
+    border-radius: 0.2rem;
+  }
+  #minutes,#seconds {
+     font-size: 1.2em;
+     font-family: verdana;
+     color: black;
+  }
+  button:hover {
+    cursor: pointer;
+  }
+  @media screen and (max-width: 500px) {
+    #main {
+      display: flex;
+      flex-direction: column;
+      margin: 25px;
+      padding: 25px;
+    }
+  }
